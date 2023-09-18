@@ -20,7 +20,7 @@ app.use("/spsden/v2/finserv/",routes)
 const start = async () => {
     try {
       
-      app.listen(3000,'192.168.199.1');
+      app.listen(3000,console.log("server started at port 3000"));
     } catch (error) {
       console.log(error);
     }
