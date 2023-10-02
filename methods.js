@@ -1,9 +1,9 @@
 
 
 const getPractise = (req,res) =>{
-    console.log("yayyaya")
+    console.log("logging from get route")
     
-    res.status(200).json({ hey:"get" });
+    res.status(200).json({ hey:"response from get route" });
 } 
 
 const putPractise = (req,res) =>{
